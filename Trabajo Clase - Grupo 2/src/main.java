@@ -31,11 +31,13 @@ public class main {
             case ("1")->{
                 System.out.println(" Metodo Circunfencia: ");
                 figura1.imprimirDatos();
+                volverMenu(entrada);
             }
 
             case ("2")->{
                 System.out.println("Metodo Elipse:  ");
                 figura2.imprimirElipse();
+                volverMenu(entrada);
             }
 
             case ("3")->{
@@ -46,6 +48,7 @@ public class main {
             case ("4")->{
                 System.out.println("Metodo Parabola ");
                 figura4.Parabola_Equipo2_ImpVer();
+                volverMenu(entrada);
             }
 
             case ("5")->{
@@ -54,6 +57,7 @@ public class main {
             }
             default -> {
                 System.out.println("El valor ingresado es incorrecto......");
+                volverMenu(entrada);
             }
         }
     }while (salir);
