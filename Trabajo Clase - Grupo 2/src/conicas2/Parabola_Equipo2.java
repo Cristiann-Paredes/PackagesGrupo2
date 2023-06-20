@@ -29,7 +29,9 @@ public class Parabola_Equipo2{
         return this.ejey = (a*(ejex)*(ejex)+b*(ejex)+c);
     }
     public void Parabola_Equipo2_ImpVer(){
+        System.out.println("Los vretices son:");
         System.out.println("La coordenada del vértice es: "+"("+this.ejex+","+this.ejey+")");
+        System.out.println("                                                  ");
     }
 
 

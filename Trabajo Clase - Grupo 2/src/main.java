@@ -11,7 +11,7 @@ public class main {
         hiperbole figura3 = new hiperbole(4, 8);
         Parabola_Equipo2 figura4 = new Parabola_Equipo2(13, 16, 23, 5, 15);
 
-        boolean salir = false;
+        boolean salir = true;
         //Menu Principal
     do {
 
@@ -56,7 +56,7 @@ public class main {
                 System.out.println("El valor ingresado es incorrecto......");
             }
         }
-    }while (!salir);
+    }while (salir);
     }
     private static void volverMenu(Scanner scanner){
         System.out.println("Presione para continuar..");

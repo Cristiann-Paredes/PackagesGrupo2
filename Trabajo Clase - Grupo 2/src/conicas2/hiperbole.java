@@ -30,5 +30,6 @@ public class hiperbole {
         System.out.println("En el eje x tanto hacia derecha e izquierda: " + this.b_hip);
         System.out.println("Con estas coordenadas se dibuja un rectangulo donde se generan las asintotas al momento de trazar una cruz entre los vertices contrarios");
         System.out.println("Se traza una linea horizontal desde el punto (-" + (this.Lr_hip/2) + "," + (this.c_hip) + ") hasta (" + (this.Lr_hip/2) + "," + (this.c_hip) + ")");
+        System.out.println("                                                  ");
     }
 }
