@@ -11,7 +11,7 @@ public class main {
         hiperbole figura3 = new hiperbole(4, 8);
         Parabola_Equipo2 figura4 = new Parabola_Equipo2(13, 16, 23, 5, 15);
 
-        boolean salir= true;
+        boolean salir = false;
         //Menu Principal
     do {
 
@@ -39,28 +39,31 @@ public class main {
             }
 
             case ("3")->{
-                System.out.println("opcion 3");
+                System.out.println("Metodo Hiperbole ");
+                figura3.variables();
             }
+
             case ("4")->{
-                System.out.println("opcion 5");
+                System.out.println("Metodo Parabola ");
+                figura4.Parabola_Equipo2_ImpVer();
             }
+
             case ("5")->{
                 System.out.println(" Gracias por usar el programa :)......");
+                salir = false;
             }
             default -> {
                 System.out.println("El valor ingresado es incorrecto......");
             }
-
-
         }
-
-
-
-
-
-    }while (false);
-
+    }while (!salir);
     }
+    private static void volverMenu(Scanner scanner){
+        System.out.println("Presione para continuar..");
+        scanner.nextLine();
+        scanner.nextLine();
+    }
+
 }
 
 
