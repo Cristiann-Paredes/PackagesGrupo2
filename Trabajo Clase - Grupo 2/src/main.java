@@ -29,11 +29,15 @@ public class main {
         switch (op){
 
             case ("1")->{
-                System.out.println("opcion 1");
+                System.out.println(" Metodo Circunfencia: ");
+                figura1.imprimirDatos();
             }
+
             case ("2")->{
-                System.out.println("opcion 2");
+                System.out.println("Metodo Elipse:  ");
+                figura2.imprimirElipse();
             }
+
             case ("3")->{
                 System.out.println("opcion 3");
             }
@@ -42,6 +46,9 @@ public class main {
             }
             case ("5")->{
                 System.out.println(" Gracias por usar el programa :)......");
+            }
+            default -> {
+                System.out.println("El valor ingresado es incorrecto......");
             }
 
 
