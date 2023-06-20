@@ -6,7 +6,54 @@ public class main {
 
         Scanner entrada = new Scanner(System.in);
 
-        circunferencia_grupo2 figura1 = new circunferencia_grupo2(5, 9);
-        Elipse figura2 = new Elipse(9.5, 1.2);
-        hiperbole figura3 = new hiperbole(3, 8);
-        Parabola_Equipo2 figura4 = new Parabola_Equipo2(20, 16, 23, 5, 8);
+        circunferencia_grupo2 figura1 = new circunferencia_grupo2(9, 18);
+        Elipse figura2 = new Elipse(9.5, 4.2);
+        hiperbole figura3 = new hiperbole(4, 8);
+        Parabola_Equipo2 figura4 = new Parabola_Equipo2(13, 16, 23, 5, 15);
+
+        boolean salir= true;
+        //Menu Principal
+    do {
+
+        System.out.println("---------BIENVENIDO AL MENU PRINCIPAL---------");
+        System.out.println("****** Menu de Figuras ******");
+
+        System.out.println("\n 1.- Circunferencia ");
+        System.out.println(" 2.- Elipse");
+        System.out.println(" 3.- Hiperbole");
+        System.out.println(" 4.- Parabola");
+        System.out.println(" 5.- Salir del menu");
+        System.out.println("Seleccione una opcion del Menu:");
+        String op= entrada.next();
+
+        switch (op){
+
+            case ("1")->{
+                System.out.println("opcion 1");
+            }
+            case ("2")->{
+                System.out.println("opcion 2");
+            }
+            case ("3")->{
+                System.out.println("opcion 3");
+            }
+            case ("4")->{
+                System.out.println("opcion 5");
+            }
+            case ("5")->{
+                System.out.println(" Gracias por usar el programa :)......");
+            }
+
+
+        }
+
+
+
+
+
+    }while (false);
+
+    }
+}
+
+
