@@ -1,11 +1,12 @@
-import conicas2. *;
+import conicas2.*;
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
-        Elipse elipse1 = new Elipse(3,4);
-        circunferencia_grupo2 circu1 = new circunferencia_grupo2(3,23);
 
-        System.out.println("AREA DEL ELIPSE: " + elipse1.area_elipse());
-        System.out.println("circu" + circu1.area_cir());
+        Scanner entrada = new Scanner(System.in);
 
-    }
-}
+        circunferencia_grupo2 figura1 = new circunferencia_grupo2(5, 9);
+        Elipse figura2 = new Elipse(9.5, 1.2);
+        hiperbole figura3 = new hiperbole(3, 8);
+        Parabola_Equipo2 figura4 = new Parabola_Equipo2(20, 16, 23, 5, 8);
